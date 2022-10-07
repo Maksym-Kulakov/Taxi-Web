@@ -40,6 +40,7 @@
 <br/>
 <a href="${pageContext.request.contextPath}/index">     << BACK TO MAIN PAGE</a>
 <br>
+
 <br/>
 <i class='fas fa-car-alt' style='font-size:48px;color:#f5bc05'></i>
 </body>

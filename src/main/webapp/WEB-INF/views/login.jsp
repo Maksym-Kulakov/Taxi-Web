@@ -17,7 +17,6 @@
         <h2  class="text-center">YOUR</h2>
         <h1  class="text-center">TAXI</h1>
         <h2  class="text-center"> SERVICE</h2>
-<%--        <h2  class="text-center"> ________</h2>--%>
         <i class='fas fa-car-alt'></i>
         <i class='fas fa-car-alt' style='font-size:24px'></i>
         <i class='fas fa-car-alt' style='font-size:36px'></i>
