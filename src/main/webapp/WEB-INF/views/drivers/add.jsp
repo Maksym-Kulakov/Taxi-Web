@@ -10,6 +10,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+<a href="${pageContext.request.contextPath}/login">BACK TO LOGIN PAGE</a>
 <br>
 <br/>
 <br>

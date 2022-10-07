@@ -29,14 +29,15 @@
             }
         </style>
         <div class="form-group">
-            <input class="item" type="text" name="login" id="username" placeholder="Логин" required>
+            <input class="item" type="text" name="login" id="username" required>
         </div>
         <div class="form-group">
-            <input class="item" type="password" name="password" id="password" placeholder="Пароль" required>
+            <input class="item" type="password" name="password" id="password" required>
         </div>
         <div class="form-group">
             <button class="login" type="submit">Login</button>
         </div>
+        <h4 style="color:red">${errorMsg}</h4>
         <div class="form-group">
             <p class="text-center">Not a member?
                 <a href="${pageContext.request.contextPath}/drivers/add">Sign up</a>

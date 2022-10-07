@@ -6,6 +6,8 @@
 <html>
 <head>
   <title>My cars</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jsp"%>
@@ -44,5 +46,11 @@
     </tr>
   </c:forEach>
 </table>
+<br>
+<br/>
+<a href="${pageContext.request.contextPath}/index">     << BACK TO MAIN PAGE</a>
+<br>
+<br/>
+<i class='fas fa-car-alt' style='font-size:48px;color:#f5bc05'></i>
 </body>
 </html>
