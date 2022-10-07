@@ -18,6 +18,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>registered</servlet-name>
+        <servlet-class>taxi.controller.RegisteredController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registered</servlet-name>
+        <url-pattern>/registered</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>allDrivers</servlet-name>
         <servlet-class>taxi.controller.driver.GetAllDriversController</servlet-class>
     </servlet>

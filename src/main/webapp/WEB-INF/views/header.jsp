@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-<a href="${pageContext.request.contextPath}/logout">LOGOUT</a>
+<a href="${pageContext.request.contextPath}/logout"><<< LOGOUT <<<</a>
 </body>
 </html>
