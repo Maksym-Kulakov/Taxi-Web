@@ -167,15 +167,6 @@ public class CarDaoImpl implements CarDao {
         String query = "INSERT INTO taxi.cars_drivers (car_id, driver_id) VALUES "
                 + drivers.stream().map(driver -> "(?, ?)").collect(Collectors.joining(", "))
                                 + " ON DUPLICATE KEY UPDATE car_id = car_id";
- /*               + "MERGE INTO taxi.cars WITH (HOLDLOCK) AS target "
-                + "USING (SELECT car_id FROM taxi.cars_drivers) AS source "
-                + "ON (target.id = source.car_id) "
-                + "WHEN MATCHED THEN "
-                + "UPDATE SET "
-                + "target.id  = source.id "
-                + "WHEN NOT MATCHED THEN "
-                + "INSERT (target.id) "
-                + "VALUES (source.car_id) ";*/
         try (Connection connection = ConnectionUtil.getConnection();
                 PreparedStatement statement =
                         connection.prepareStatement(query)) {
