@@ -1,0 +1,6 @@
+2022-10-09 18:54:31,870 INFO taxi.controller.LoginController:37 Driver with login=max successfully logged in
+2022-10-09 18:54:35,969 INFO taxi.controller.LogoutController:28 Driver with login=max successfully logged out
+2022-10-09 19:08:49,891 INFO taxi.controller.LoginController:37 Driver with login=max successfully logged in
+2022-10-09 19:08:58,747 INFO taxi.controller.LogoutController:28 Driver with login=max successfully logged out
+2022-10-09 19:49:34,447 INFO taxi.controller.LoginController:37 Driver with login=max successfully logged in
+2022-10-09 19:49:40,203 INFO taxi.controller.LogoutController:28 Driver with login=max successfully logged out
