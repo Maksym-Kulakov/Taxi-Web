@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c469d03-292e-4bd6-807d-0ebe0f72a166" name="Changes" comment="Fifth Commit" />
+    <list default="true" id="7c469d03-292e-4bd6-807d-0ebe0f72a166" name="Changes" comment="Fifth Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +196,7 @@
       <workItem from="1665335226550" duration="1094000" />
       <workItem from="1665336335139" duration="814000" />
       <workItem from="1665337174387" duration="2150000" />
-      <workItem from="1665400369027" duration="877000" />
+      <workItem from="1665400369027" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1665054477184</created>
