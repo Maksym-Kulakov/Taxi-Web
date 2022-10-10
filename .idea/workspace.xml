@@ -10,10 +10,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c469d03-292e-4bd6-807d-0ebe0f72a166" name="Changes" comment="Fifth Commit">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/LogoutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/RegisteredController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/car/AddCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/car/AddDriverToCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/car/DeleteCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/car/GetAllCarsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/car/GetMyCurrentCarsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/driver/AddDriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/driver/DeleteDriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/driver/GetAllDriversController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/AddManufacturerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/DeleteManufacturerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/GetAllManufacturersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/controller/web/filter/AuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/CarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/CarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/DriverDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/DriverDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/ManufacturerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/dao/ManufacturerDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/exception/AuthenticationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/exception/DataProcessingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/lib/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/lib/Inject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/lib/Injector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/lib/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/model/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/model/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/model/Manufacturer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/AuthenticationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/CarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/CarServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/DriverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/DriverServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/GenericService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/ManufacturerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/service/ManufacturerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/taxi/util/ConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LogoutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/RegisteredController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddDriverToCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/DeleteCarController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/GetAllCarsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/GetMyCurrentCarsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/AddDriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/DeleteDriverController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/GetAllDriversController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/AddManufacturerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/DeleteManufacturerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/GetAllManufacturersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/web/filter/AuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/AuthenticationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/DataProcessingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Inject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Injector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Manufacturer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/GenericService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/util/ConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/jtds-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/drivers/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/my.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/css/table_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/registered.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/taxi/controller/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taxi/controller/LogoutController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,29 +180,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/taxi-service/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlserver&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\taxi-service\src\main\resources" />
@@ -208,6 +316,7 @@
       <workItem from="1665335226550" duration="1094000" />
       <workItem from="1665336335139" duration="814000" />
       <workItem from="1665337174387" duration="2150000" />
+      <workItem from="1665400369027" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1665054477184</created>
